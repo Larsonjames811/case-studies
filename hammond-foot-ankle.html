@@ -142,6 +142,19 @@
     text-decoration:none; white-space:nowrap; border-bottom:2px solid var(--gold); padding-bottom:3px;}
   .readfull:hover{color:var(--gold);}
 
+  /* ---- top social proof bar ---- */
+  .proofbar{padding:10px 0 2px;}
+  .proofbar .wrap{border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:36px 28px;}
+  .proofbar .qmark{font-family:var(--serif); color:var(--gold); font-size:52px; line-height:0; display:block; height:26px;}
+  .proofbar blockquote{margin:0; font-family:var(--serif); font-size:27px; font-weight:500; line-height:1.4; letter-spacing:-.3px; color:var(--night); max-width:42ch;}
+  .proofbar .who{margin-top:24px; display:flex; align-items:center; gap:15px; flex-wrap:wrap;}
+  .proofbar .dot{width:46px; height:46px; border-radius:999px; background:var(--night); flex:none; display:flex; align-items:center; justify-content:center; font-family:var(--serif); font-weight:600; color:var(--gold-soft); font-size:16px;}
+  .proofbar .nm{font-weight:700; font-size:16px;}
+  .proofbar .nm small{display:block; color:var(--muted); font-weight:500; font-size:13.5px; margin-top:2px;}
+  .proofbar .nm small a{color:var(--gold); text-decoration:none; border-bottom:1px solid rgba(176,137,46,.45);}
+  .proofbar .nm small a:hover{border-color:var(--gold);}
+  @media(max-width:680px){ .proofbar blockquote{font-size:21px;} .proofbar .wrap{padding:28px 20px;} }
+
   /* ---- full review ---- */
   .review{padding:54px 0 8px; scroll-margin-top:92px;}
   .review h2{margin:0 0 6px; font-family:var(--serif); font-size:32px; font-weight:600; letter-spacing:-.5px; line-height:1.12;}
@@ -241,6 +254,19 @@
   </div>
 </div>
 
+<!-- ============ SOCIAL PROOF (top) ============ -->
+<section class="proofbar">
+  <div class="wrap">
+    <span class="qmark">“</span>
+    <blockquote>They took something that felt overwhelming and made it approachable, actionable, and exciting.</blockquote>
+    <div class="who">
+      <span class="dot">JH</span>
+      <span class="nm">Dr. Jeffrey Hammond, DPM<small>Hammond Foot &amp; Ankle · <a href="https://hammondfootandankle.com" target="_blank" rel="noopener">hammondfootandankle.com</a></small></span>
+      <a class="readfull" href="#full-review">Read his full review ↓</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ PROBLEM ============ -->
 <section class="block">
   <div class="wrap">
@@ -297,20 +323,6 @@
     <p class="kicker">The result</p>
     <h2>Overwhelming became a Monday to-do list</h2>
     <p>Dr. Hammond walked away with a <span class="hl">prioritized, costed roadmap in hand</span> — four wins live in week one for under $130/month, well inside his budget, plus a clear growth lever that funds the rest. No hidden fees, no pressure, built on the software he already uses.</p>
-  </div>
-</section>
-
-<!-- ============ QUOTE ============ -->
-<section class="quote">
-  <div class="wrap">
-    <div class="inner">
-      <blockquote class="full">“They took something that felt overwhelming and made it approachable, actionable, and exciting. They had already done the homework for me — no hidden fees, no pressure, no surprise costs.”</blockquote>
-      <div class="who">
-        <span class="dot">JH</span>
-        <span class="nm">Dr. Jeffrey Hammond, DPM<small>Hammond Foot &amp; Ankle · <a href="https://hammondfootandankle.com" target="_blank" rel="noopener">hammondfootandankle.com</a></small></span>
-        <a class="readfull" href="#full-review">Read his full review ↓</a>
-      </div>
-    </div>
   </div>
 </section>
 
