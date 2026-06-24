@@ -4,3 +4,4 @@ Client case studies, hosted via GitHub Pages.
 
 - **Live:** https://larsonjames811.github.io/case-studies/
 - Hammond Foot & Ankle: `/hammond-foot-ankle.html`
+- Ridgeline Heating & Cooling: `/ridgeline-heating-cooling.html`
